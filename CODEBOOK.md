@@ -33,17 +33,15 @@ The data for this project where extracted from above site and placed in https://
  run_analysis.R:
    *  Merges the training and the test sets from "UCI HAR Dataset" to create one data set.
    *  Extracts only the measurements on the mean and standard deviation for each measurement. 
-    * Uses descriptive activity names to name the activities in the data set
-    * Appropriately labels the data set with descriptive variable names
-    * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-    * Writes that data set in a file named "tidy.txt" in the working directory
+   * Uses descriptive activity names to name the activities in the data set
+   * Appropriately labels the data set with descriptive variable names
+   * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+   * Writes that data set in a file named "tidy.txt" in the working directory
 
 ##Description of the variables in the tidy.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
+ 
  tidy.txt contains 180 observations of 68 variables
+
  subjectID                        : int  
  activity                         : Factor w/ 6 levels 
  average.tBodyAcc.mean.X          : num
