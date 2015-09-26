@@ -1,5 +1,5 @@
 # run_analysis.R 
-run_analysis.R contains one script conform the description from the rubric of the course project for Getting and Cleaning Data.
+run_analysis.R contains one script conform the description from the [rubric](https://class.coursera.org/getdata-032/human_grading/view/courses/975116/assessments/3/submissions) of the course project for Getting and Cleaning Data.
 
 The script assumes that it will be run with the working directory set to the directory in which the [zipfile](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) was unzipped. Thus the working directory contains a subdirectory "UCI HAR Dataset"
 
@@ -17,6 +17,6 @@ As last step, a tidy data text file is written with write.table, row.names=FALSE
 
 This tidy data text file meets the principles of every measured variable in one column, each observation in one row. Those principles were stated in lesson 1 of the course. The first is obvious from the columnnames (plus explanation about their names in the codebook), the second is clear because each combination subjectid/activity consists only once, thus the average for that combination is in one row only.
 
-The codebook contains the specific description of the filecontent and the relation between the original dataset and the tidy data text file.
+The [codebook](https://github.com/Liesbeth1957/CleaningData/blob/master/CODEBOOK.md) contains the specific description of the filecontent and the relation between the original dataset and the tidy data text file.
 
 
