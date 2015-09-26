@@ -211,19 +211,19 @@ variable 3 and on describe the average of the measurement of a subject during an
 - **class**: num
 - **values**: [-1:+1]
 - **unit**: no unit
-- **name schema**: see below
-
-* average: calculated by grouping each subject/activity in the raw data and then using the mean() over every measurement; 
-* t/f: t to denote time, f to denote frequency domain signals; 
-* BodyAcc/GravityAcc: acceleration split in body and gravity; 
-* Acc/Gyro: accelerometer, gyroscope; 
-* Mag/Jerk: magnitude, Jerk;
-* X/Y/Z: the dimension; 
-* mean()/std(): the mean value and standard deviation
+- **name schema**:
+    * average: calculated by grouping each subject/activity in the raw data and then using the mean() over every measurement; 
+    * t/f: t to denote time, f to denote frequency domain signals; 
+    * BodyAcc/GravityAcc: acceleration split in body and gravity; 
+    * Acc/Gyro: accelerometer, gyroscope; 
+    * Mag/Jerk: magnitude, Jerk;
+    * X/Y/Z: the dimension; 
+    * mean()/std(): the mean value and standard deviation
 
 The average was calculated by grouping each subject/activity in the raw data and then using the mean() over every measurement
 
 ####Notes on variable 3 and on:
+
 all readings were normalized in the raw data set, so no units present.
 For a complete description of how the raw data were sampled see the readme in the zip-file below
 
