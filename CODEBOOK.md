@@ -28,7 +28,8 @@ The data for this project where extracted from above site and placed in https://
 5. the tidy data file "tidy.txt" should now be created in your working directory
 
 ###Cleaning of the data
- [link to the readme document that describes the code in greater detail]()
+ [link to the readme document that describes the code in greater detail](https://github.com/Liesbeth1957/CleaningData/blob/master/README.md)
+ 
  run_analysis.R:
    *  Merges the training and the test sets from "UCI HAR Dataset" to create one data set.
    *  Extracts only the measurements on the mean and standard deviation for each measurement. 
