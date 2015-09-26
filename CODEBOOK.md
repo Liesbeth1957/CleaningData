@@ -187,32 +187,32 @@ subjectID denotes which subject readings belongs to.
 - **unit**: no unit
 - **name schema**: none
 
-
 ####Notes on variable 1:
 
-order is still the original order with first all the subjects from the training set (first 126 rows) and then the subjects form the testset
+The order of the subjects is still the original order from the raw data with first all the subjects from the training set (first 126 rows) and then the subjects form the testset
 
 ###Variable 2  activity
 
 activity is a factor which describes which activity the subject did when collecting the belonging measures 
----
-class: Factor w/ 6 levels 
-values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-unit: no unit
-name schema: none
----
+
+- **class**: Factor w/ 6 levels 
+- **values**: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+- **unit**: no unit
+- **name schema**: none
 
 ####Notes on variable 2:
+
 The numbers denoting the activities in the original data set were replaced with the descriptive factors, using activity_labels.txt
 
 ###Variable 3 and on
+
 variable 3 and on describe the average of the measurement of a subject during an activity.
----
-class: num
-values: [-1:+1]
-unit: no unit
-name schema: see below
----
+
+- **class**: num
+- **values**: [-1:+1]
+- **unit**: no unit
+- **name schema**: see below
+
 * average: calculated by grouping each subject/activity in the raw data and then using the mean() over every measurement; 
 * t/f: t to denote time, f to denote frequency domain signals; 
 * BodyAcc/GravityAcc: acceleration split in body and gravity; 
@@ -229,9 +229,10 @@ For a complete description of how the raw data were sampled see the readme in th
 
 
 ##Sources
+
 [original study](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 [data for project](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
 [template for codebook](https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41)
 
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
