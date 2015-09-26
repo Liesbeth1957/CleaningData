@@ -42,88 +42,141 @@ The data for this project where extracted from above site and placed in https://
  
  tidy.txt contains 180 observations of 68 variables
 
- subjectID                        : int  
- activity                         : Factor w/ 6 levels 
+ subjectID                        : int
+ 
+ activity                         : Factor w/ 6 levels
+ 
  average.tBodyAcc.mean.X          : num
+ 
  average.tBodyAcc.mean.Y          : num
+ 
  average.tBodyAcc.mean.Z          : num
+ 
  average.tBodyAcc.std.X           : num
+ 
  average.tBodyAcc.std.Y           : num
+ 
  average.tBodyAcc.std.Z           : num
+ 
  average.tGravityAcc.mean.X       : num
+ 
  average.tGravityAcc.mean.Y       : num
+ 
  average.tGravityAcc.mean.Z       : num
+ 
  average.tGravityAcc.std.X        : num
+ 
  average.tGravityAcc.std.Y        : num
+ 
  average.tGravityAcc.std.Z        : num
+ 
  average.tBodyAccJerk.mean.X      : num
+ 
  average.tBodyAccJerk.mean.Y      : num
+ 
  average.tBodyAccJerk.mean.Z      : num
+ 
  average.tBodyAccJerk.std.X       : num
+ 
  average.tBodyAccJerk.std.Y       : num
+ 
  average.tBodyAccJerk.std.Z       : num
+ 
  average.tBodyGyro.mean.X         : num
+ 
  average.tBodyGyro.mean.Y         : num
+ 
  average.tBodyGyro.mean.Z         : num
+ 
  average.tBodyGyro.std.X          : num
+ 
  average.tBodyGyro.std.Y          : num
+ 
  average.tBodyGyro.std.Z          : num
+ 
  average.tBodyGyroJerk.mean.X     : num
+ 
  average.tBodyGyroJerk.mean.Y     : num
+ 
  average.tBodyGyroJerk.mean.Z     : num
+ 
  average.tBodyGyroJerk.std.X      : num
+ 
  average.tBodyGyroJerk.std.Y      : num
+ 
  average.tBodyGyroJerk.std.Z      : num
+ 
  average.tBodyAccMag.mean         : num
+ 
  average.tBodyAccMag.std          : num
+ 
  average.tGravityAccMag.mean      : num
+ 
  average.tGravityAccMag.std       : num
+ 
  average.tBodyAccJerkMag.mean     : num
+ 
  average.tBodyAccJerkMag.std      : num
+ 
  average.tBodyGyroMag.mean        : num
+ 
  average.tBodyGyroMag.std         : num
+ 
  average.tBodyGyroJerkMag.mean    : num
+ 
  average.tBodyGyroJerkMag.std     : num
+ 
  average.fBodyAcc.mean.X          : num
+ 
  average.fBodyAcc.mean.Y          : num
+ 
  average.fBodyAcc.mean.Z          : num
+ 
  average.fBodyAcc.std.X           : num
+ 
  average.fBodyAcc.std.Y           : num
+ 
  average.fBodyAcc.std.Z           : num
+ 
  average.fBodyAccJerk.mean.X      : num
+ 
  average.fBodyAccJerk.mean.Y      : num
+ 
  average.fBodyAccJerk.mean.Z      : num
+ 
  average.fBodyAccJerk.std.X       : num
+ 
  average.fBodyAccJerk.std.Y       : num
+ 
  average.fBodyAccJerk.std.Z       : num
+ 
  average.fBodyGyro.mean.X         : num
+ 
  average.fBodyGyro.mean.Y         : num
+ 
  average.fBodyGyro.mean.Z         : num
+ 
  average.fBodyGyro.std.X          : num
+ 
  average.fBodyGyro.std.Y          : num
+ 
  average.fBodyGyro.std.Z          : num
+ 
  average.fBodyAccMag.mean         : num
+ 
  average.fBodyAccMag.std          : num
+ 
  average.fBodyBodyAccJerkMag.mean : num
+ 
  average.fBodyBodyAccJerkMag.std  : num
+ 
  average.fBodyBodyGyroMag.mean    : num
+ 
  average.fBodyBodyGyroMag.std     : num
+ 
  average.fBodyBodyGyroJerkMag.mean: num
+ 
  average.fBodyBodyGyroJerkMag.std : num
-
-###Variable 1 subjectID
-Short description of what the variable describes.
-
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
 
 ###Variable 1 subjectID
 subjectID denotes which subject readings belongs to.
