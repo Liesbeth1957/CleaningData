@@ -179,18 +179,21 @@ The data for this project where extracted from above site and placed in https://
  average.fBodyBodyGyroJerkMag.std : num
 
 ###Variable 1 subjectID
+
 subjectID denotes which subject readings belongs to.
----
-class: int
-values: 1..30
-unit: no unit
-name schema: none
----
+
+- **class**: int
+- **values**: 1..30
+- **unit**: no unit
+- **name schema**: none
+
 
 ####Notes on variable 1:
+
 order is still the original order with first all the subjects from the training set (first 126 rows) and then the subjects form the testset
 
 ###Variable 2  activity
+
 activity is a factor which describes which activity the subject did when collecting the belonging measures 
 ---
 class: Factor w/ 6 levels 
